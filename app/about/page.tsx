@@ -24,7 +24,7 @@ const experience = [
 ];
 
 const skills = [
-  'Oil Painting',
+  'Acrylic Painting',
   'Acrylic',
   'Charcoal & Pastel',
   'Figure Drawing',
@@ -102,8 +102,8 @@ export default function AboutPage() {
                 className="text-xl md:text-2xl leading-relaxed text-charcoal font-display mb-8"
                 style={{ fontFamily: 'var(--font-playfair), serif' }}
               >
-                I am Sarah Vu, a multidisciplinary artist based in [City]. My
-                work spans oil painting, life drawing, film photography, and
+                I am Sarah Vu, a multidisciplinary artist based in Orlando, Florida. My
+                work spans acrylic painting, life drawing, street photography, and
                 graphic design.
               </p>
               <div
@@ -115,7 +115,7 @@ export default function AboutPage() {
                   looking carefully and drawing what I see. That habit of careful
                   observation carries through everything I make — whether I&apos;m
                   standing in a life drawing session, mixing paint in the studio,
-                  loading a roll of film, or designing a visual identity from scratch.
+                  taking photos on a walk, or designing a visual identity from scratch.
                 </p>
                 <p>
                   My practice is defined by a commitment to craft and a genuine
@@ -125,7 +125,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   When I&apos;m not in the studio, I can usually be found at a museum,
-                  browsing secondhand bookshops, or shooting film on long walks.
+                  at a cafe, sketching, or at home crafting.
                 </p>
               </div>
               <div className="mt-10">
