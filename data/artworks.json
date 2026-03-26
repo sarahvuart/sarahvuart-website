@@ -1,12 +1,14 @@
 [
   {
     "id": "p-001",
-    "slug": "golden-hour-study",
-    "title": "Golden Hour Study",
+    "slug": "judith-ousting-minotaur",
+    "title": "Judith Ousting Minotaur",
     "category": "paintings",
-    "description": "An exploration of light and warmth during the brief moments before sunset, painted in oils on linen. The interplay between deep shadows and gilded highlights captures the fleeting nature of golden hour.",
-    "year": 2024,
-    "medium": "Oil on linen",
+    "description": "This work reimagines Judith Beheading Holofernes through a playful and contemporary lens. Drawing from the dramatic intensity and chiaroscuro of Caravaggio, the piece transforms the original narrative into a whimsical yet layered allegory of revelation and disguise. 
+    In this reinterpretation, Judith's decisive act is prompted not by political or heroic necessity, but by an unexpected and almost absurd chain of discovery: a domestic moment in which her cat captures a mouse, the mouse uncovers sunflower seeds, and the seeds ultimately expose her lover as a Minotaur in disguise. The intrusion of the uncanny into the intimate space reframes the scene, merging humor with tension. 
+    By juxtaposing Baroque drama with surreal storytelling, the work explores themes of perception, hidden identity, and the fragile boundary between the ordinary and the fantastical.",
+    "year": 2022,
+    "medium": "Acrylic on canvas",
     "dimensions": "24\" × 36\"",
     "images": ["/images/paintings/golden-hour-study.jpg"],
     "thumbnail": "/images/paintings/golden-hour-study.jpg",
