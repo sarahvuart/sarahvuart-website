@@ -7,7 +7,7 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     slug: 'paintings',
     label: 'Paintings',
-    description: 'Original paintings in oil, acrylic, and mixed media.',
+    description: 'Original paintings in acrylic and mixed media.',
   },
   {
     slug: 'figure-drawings',
@@ -17,12 +17,12 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     slug: 'photography',
     label: 'Photography',
-    description: 'Film and digital photography capturing light and moment.',
+    description: 'Digital photography capturing light and moment.',
   },
   {
     slug: 'graphic-design',
     label: 'Graphic Design',
-    description: 'Brand identity, editorial, and typographic design work.',
+    description: 'Brand identity and typographic design work.',
   },
 ];
 
