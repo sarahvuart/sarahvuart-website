@@ -143,14 +143,14 @@
   },
   {
     "id": "ph-002",
-    "slug": "winter-light",
-    "title": "Winter Light",
+    "slug": "city-view-series-22",
+    "title": "City View Series-22",
     "category": "photography",
-    "description": "A series exploring how January light falls through domestic windows, transforming everyday interiors into studies in geometry and shadow.",
+    "description": "This photograph is part of a larger series documenting urban landscapes across Vietnam. The project began during Sarah’s travels through her family’s home country, where she spent a month exploring regions in the north, central, and southern parts of the country. The series reflects her observations and experiences, capturing the character and visual richness of the cities she encountered, while also serving as a personal exploration of place, culture, and connection.",
     "year": 2024,
-    "medium": "Digital, Sony A7C",
-    "images": ["/images/photography/winter-light.jpg"],
-    "thumbnail": "/images/photography/winter-light.jpg",
+    "medium": "Digital, Sony A6000",
+    "images": ["/images/photography/IMG_1561.JPG"],
+    "thumbnail": "/images/photography/IMG_1561.JPG",
     "featured": true
   },
   {
@@ -160,7 +160,7 @@
     "category": "photography",
     "description": "Long-exposure street photography capturing the transition from day to night. Blurred figures and streaking headlights create an abstract quality within recognizable urban space.",
     "year": 2023,
-    "medium": "Digital, Sony A7C",
+    "medium": "Digital, Sony A6000",
     "images": ["/images/photography/city-at-dusk.jpg"],
     "thumbnail": "/images/photography/city-at-dusk.jpg",
     "featured": false
@@ -172,7 +172,7 @@
     "category": "photography",
     "description": "Close-up macro photography of dried flowers and foliage. Shallow depth of field and natural window light turn organic textures into near-abstract compositions.",
     "year": 2023,
-    "medium": "35mm film, Kodak Gold 200",
+    "medium": "Digital, Sony A6000",
     "images": ["/images/photography/botanical-study.jpg"],
     "thumbnail": "/images/photography/botanical-study.jpg",
     "featured": false
