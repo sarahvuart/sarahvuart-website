@@ -86,8 +86,8 @@
     "year": 2024,
     "medium": "Charcoal and pastel on newsprint",
     "dimensions": "24\" × 36\"",
-    "images": ["/images/figure-drawings/IMG_6792.jpeg"],
-    "thumbnail": "/images/figure-drawings/IMG_6792.jpeg",
+    "images": ["/images/figure-drawing/IMG_6792.jpeg"],
+    "thumbnail": "/images/figure-drawing/IMG_6792.jpeg",
     "featured": true
   },
   {
@@ -99,8 +99,8 @@
     "year": 2023,
     "medium": "Pastel on newsprint",
     "dimensions": "8\" × 11\"",
-    "images": ["/images/figure-drawings/IMG_6885.jpeg"],
-    "thumbnail": "/images/figure-drawings/IMG_6885.jpeg",
+    "images": ["/images/figure-drawing/IMG_6885.jpeg"],
+    "thumbnail": "/images/figure-drawing/IMG_6885.jpeg",
     "featured": false
   },
   {
@@ -112,8 +112,8 @@
     "year": 2023,
     "medium": "Charcoal on newsprint",
     "dimensions": "24\" × 36\"",
-    "images": ["/images/figure-drawings/portrait-in-red-chalk.jpg"],
-    "thumbnail": "/images/figure-drawings/portrait-in-red-chalk.jpg",
+    "images": ["/images/figure-drawing/portrait-in-red-chalk.jpg"],
+    "thumbnail": "/images/figure-drawing/portrait-in-red-chalk.jpg",
     "featured": false
   },
   {
@@ -125,8 +125,8 @@
     "year": 2022,
     "medium": "Charcoal on newsprint",
     "dimensions": "24\" × 36\"",
-    "images": ["/images/figure-drawings/standing-pose.jpg"],
-    "thumbnail": "/images/figure-drawings/standing-pose.jpg",
+    "images": ["/images/figure-drawing/standing-pose.jpg"],
+    "thumbnail": "/images/figure-drawing/standing-pose.jpg",
     "featured": false
   },
   {
