@@ -105,15 +105,15 @@
   },
   {
     "id": "fd-004",
-    "slug": "portrait-in-red-chalk",
-    "title": "Portrait in Red Chalk",
+    "slug": "moving-figure",
+    "title": "Moving Figure",
     "category": "figure-drawings",
-    "description": "A portrait study rendered in sanguine chalk on toned paper, a technique referencing the Old Master tradition. Highlights are lifted with a kneaded eraser.",
-    "year": 2023,
+    "description": "This work is a dynamic figure study capturing a model in motion, with poses changing at twenty-minute intervals. The resulting composition reads as a sequential, animation-like drawing, conveying movement and the passage of time through repeated forms. The use of color serves to articulate and define the contours of the body, enhancing the sense of structure and continuity across each pose.",
+    "year": 2024,
     "medium": "Charcoal on newsprint",
     "dimensions": "24\" × 36\"",
-    "images": ["/images/figure-drawing/portrait-in-red-chalk.jpg"],
-    "thumbnail": "/images/figure-drawing/portrait-in-red-chalk.jpg",
+    "images": ["/images/figure-drawing/IMG_6891.jpeg"],
+    "thumbnail": "/images/figure-drawing/IMG_6891.jpeg",
     "featured": false
   },
   {
