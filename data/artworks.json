@@ -118,15 +118,15 @@
   },
   {
     "id": "fd-005",
-    "slug": "standing-pose",
-    "title": "Standing Pose",
+    "slug": "model-and-still-life",
+    "title": "Model and Still Life",
     "category": "figure-drawings",
-    "description": "A twenty-minute standing pose study exploring contrapposto and balance through simplified planes and directional light.",
-    "year": 2022,
+    "description": "This drawing originates from a live figure session incorporating still-life elements, including human and animal skeletons. The composition emphasizes accuracy in the rendering of each figure, while the centrally positioned skeleton is developed with greater definition to guide the viewer’s attention. This contrast in emphasis establishes a clear focal point and reinforces the structural relationships within the scene.",
+    "year": 2023,
     "medium": "Charcoal on newsprint",
     "dimensions": "24\" × 36\"",
-    "images": ["/images/figure-drawing/standing-pose.jpg"],
-    "thumbnail": "/images/figure-drawing/standing-pose.jpg",
+    "images": ["/images/figure-drawing/IMG_6892.jpeg"],
+    "thumbnail": "/images/figure-drawing/IMG_6892.jpeg",
     "featured": false
   },
   {
