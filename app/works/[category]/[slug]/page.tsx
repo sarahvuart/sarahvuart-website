@@ -61,7 +61,7 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
           {/* Image */}
           <div className="overflow-hidden bg-cream-dark">
   <img
-    src={artwork.images[0]}
+    src={images[0]?.src ?? ''}
     alt={artwork.title}
     className="w-full h-auto block"
     loading="eager"
