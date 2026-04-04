@@ -155,14 +155,14 @@
   },
   {
     "id": "ph-003",
-    "slug": "city-at-dusk",
-    "title": "City at Dusk",
+    "slug": "tranquil-meal",
+    "title": "Tranquil Meal",
     "category": "photography",
-    "description": "Long-exposure street photography capturing the transition from day to night. Blurred figures and streaking headlights create an abstract quality within recognizable urban space.",
-    "year": 2023,
+    "description": "This photograph captures a quiet, contemplative moment of a peaceful, unhurried lunch. The architecture of the restaurant subtly frames the composition, guiding the viewer’s eye through the scene. Earthy green tones contrast with the red brick structure in the background, creating a balanced interplay of color and enhancing the sense of calm within the environment.",
+    "year": 2024,
     "medium": "Digital, Sony A6000",
-    "images": ["/images/photography/city-at-dusk.jpg"],
-    "thumbnail": "/images/photography/city-at-dusk.jpg",
+    "images": ["/images/photography/IMG_1564.JPG"],
+    "thumbnail": "/images/photography/IMG_1564.JPG",
     "featured": false
   },
   {
