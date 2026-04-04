@@ -4,6 +4,11 @@ export type ArtworkCategory =
   | 'photography'
   | 'graphic-design';
 
+export interface ArtworkImage {
+  src: string;
+  caption?: string;
+}
+
 export interface Artwork {
   id: string;
   slug: string;
@@ -13,7 +18,7 @@ export interface Artwork {
   year: number;
   medium?: string;
   dimensions?: string;
-  images: string[];
+  images: string[] | ArtworkImage[];
   thumbnail: string;
   featured: boolean;
 }
