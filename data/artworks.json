@@ -92,15 +92,15 @@
   },
   {
     "id": "fd-003",
-    "slug": "torso-study",
-    "title": "Torso Study",
+    "slug": "portrait-study",
+    "title": "Portrait Study",
     "category": "figure-drawings",
-    "description": "Academic torso study using three-value rendering to build volume. Graphite hatching follows the form to describe musculature and surface.",
+    "description": "This work is an academic portrait study of a live model, emphasizing careful observation and technical precision. Through the application of color theory and pastel drawing techniques, the artist builds nuanced, lifelike skin tones, creating a sense of depth and presence on the paper.",
     "year": 2023,
-    "medium": "Charcoal on newsprint",
-    "dimensions": "24\" × 36\"",
-    "images": ["/images/figure-drawings/torso-study.jpg"],
-    "thumbnail": "/images/figure-drawings/torso-study.jpg",
+    "medium": "Pastel on newsprint",
+    "dimensions": "8\" × 11\"",
+    "images": ["/images/figure-drawings/IMG_6885.jpeg"],
+    "thumbnail": "/images/figure-drawings/IMG_6885.jpeg",
     "featured": false
   },
   {
