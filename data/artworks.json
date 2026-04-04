@@ -131,14 +131,14 @@
   },
   {
     "id": "ph-001",
-    "slug": "morning-market",
-    "title": "Morning Market",
+    "slug": "morning-coffee",
+    "title": "Morning Coffee",
     "category": "photography",
-    "description": "Documentary photography from a local farmers' market at opening hour. Shot on 35mm film, these images capture the ritual of commerce, color, and community.",
+    "description": "This photograph was captured during a morning coffee outing in Huế, Vietnam, documenting a quiet, everyday moment. Bright sunlight filters across plants and motorbikes, creating a dynamic interplay of light and shadow that animates the scene. The warm, earthy tones of the environment evoke a sense of calm, reflecting the atmosphere of a peaceful outdoor coffee experience.",
     "year": 2024,
-    "medium": "35mm film, Portra 400",
-    "images": ["/images/photography/morning-market.jpg"],
-    "thumbnail": "/images/photography/morning-market.jpg",
+    "medium": "Digital, Sony A6000",
+    "images": ["/images/photography/IMG_1582.JPG"],
+    "thumbnail": "/images/photography/IMG_1582.JPG",
     "featured": true
   },
   {
