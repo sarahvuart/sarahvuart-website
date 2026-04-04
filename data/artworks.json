@@ -27,15 +27,15 @@
   },
   {
     "id": "p-003",
-    "slug": "garden-abstraction",
-    "title": "Garden Abstraction",
+    "slug": "desk-still-life",
+    "title": "Desk Still Life",
     "category": "paintings",
-    "description": "An abstract response to summer blooms — layers of acrylic washes and textured marks dissolve the boundary between observation and imagination.",
+    "description": "This painting is a focused study of the corner of a desk, exploring the subtleties of light, form, and spatial composition within an everyday environment. The work incorporates the Verdaccio technique, employing a green-toned underpainting to establish value structure and depth, which serves as the foundation for the final layers of the piece.",
     "year": 2023,
     "medium": "Acrylic on canvas",
-    "dimensions": "30\" × 40\"",
-    "images": ["/images/paintings/garden-abstraction.jpg"],
-    "thumbnail": "/images/paintings/garden-abstraction.jpg",
+    "dimensions": "9\" × 12\"",
+    "images": ["/images/paintings/IMG_2686.jpeg"],
+    "thumbnail": "/images/paintings/IMG_2686.jpeg",
     "featured": false
   },
   {
