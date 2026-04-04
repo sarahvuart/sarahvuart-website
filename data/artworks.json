@@ -178,51 +178,67 @@
     "featured": false
   },
   {
-    "id": "gd-001",
-    "slug": "bloom-brand-identity",
-    "title": "Bloom Brand Identity",
-    "category": "graphic-design",
-    "description": "Full brand identity system for a botanical skincare startup. Includes logo, type hierarchy, color palette, packaging mockups, and brand guidelines document.",
-    "year": 2024,
-    "medium": "Brand Identity",
-    "images": ["/images/graphic-design/bloom-brand-identity.jpg"],
-    "thumbnail": "/images/graphic-design/bloom-brand-identity.jpg",
-    "featured": true
-  },
+  "id": "gd-001",
+  "slug": "ml-pro-nails-&-spa-brand-identity",
+  "title": "ML Pro Nails & Spa Brand Identity",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2025,
+  "medium": "Brand Identity",
+  "images": [
+    { "src": "/images/graphic-design/bloom-brand-identity.jpg", "caption": "Primary logo mark" },
+    { "src": "/images/graphic-design/bloom-brand-identity-2.jpg", "caption": "Color palette and typography" },
+    { "src": "/images/graphic-design/bloom-brand-identity-3.jpg", "caption": "Packaging mockup" }
+  ],
+  "thumbnail": "/images/graphic-design/bloom-brand-identity.jpg",
+  "featured": true
+}
+{
+  "id": "gd-002",
+  "slug": "dynamics-lion-dance-brand-identity",
+  "title": "Dynamics Lion Dance Brand Identity",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2022,
+  "medium": "Brand Identity",
+  "images": [
+    { "src": "/images/graphic-design/bloom-brand-identity.jpg", "caption": "Primary logo mark" },
+    { "src": "/images/graphic-design/bloom-brand-identity-2.jpg", "caption": "Color palette and typography" },
+    { "src": "/images/graphic-design/bloom-brand-identity-3.jpg", "caption": "Packaging mockup" }
+  ],
+  "thumbnail": "/images/graphic-design/bloom-brand-identity.jpg",
+  "featured": true
+}
   {
-    "id": "gd-002",
-    "slug": "aperture-magazine-layout",
-    "title": "Aperture Magazine Layout",
-    "category": "graphic-design",
-    "description": "Editorial layout design for a photography and culture magazine. Emphasis on grid fluidity, typographic hierarchy, and image-to-text balance across twelve spreads.",
-    "year": 2024,
-    "medium": "Editorial Design",
-    "images": ["/images/graphic-design/aperture-magazine-layout.jpg"],
-    "thumbnail": "/images/graphic-design/aperture-magazine-layout.jpg",
-    "featured": true
-  },
+  "id": "gd-003",
+  "slug": "heros-aid-comic-book",
+  "title": "Hero's Aid Comic Book",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2024,
+  "medium": "Comic book",
+  "images": [
+    { "src": "/images/graphic-design/bloom-brand-identity.jpg", "caption": "Primary logo mark" },
+    { "src": "/images/graphic-design/bloom-brand-identity-2.jpg", "caption": "Color palette and typography" },
+    { "src": "/images/graphic-design/bloom-brand-identity-3.jpg", "caption": "Packaging mockup" }
+  ],
+  "thumbnail": "/images/graphic-design/bloom-brand-identity.jpg",
+  "featured": true
+}
   {
-    "id": "gd-003",
-    "slug": "arts-festival-poster",
-    "title": "Arts Festival Poster",
-    "category": "graphic-design",
-    "description": "Event poster series for an annual arts festival. The visual system uses hand-drawn letterforms combined with photographic textures to bridge analog and digital aesthetics.",
-    "year": 2023,
-    "medium": "Poster Design",
-    "images": ["/images/graphic-design/arts-festival-poster.jpg"],
-    "thumbnail": "/images/graphic-design/arts-festival-poster.jpg",
-    "featured": false
-  },
-  {
-    "id": "gd-004",
-    "slug": "typography-specimen",
-    "title": "Typography Specimen",
-    "category": "graphic-design",
-    "description": "A self-initiated type specimen exploring the personality and range of a custom variable font. Designed as both a functional reference and a visual showcase.",
-    "year": 2023,
-    "medium": "Typography / Print",
-    "images": ["/images/graphic-design/typography-specimen.jpg"],
-    "thumbnail": "/images/graphic-design/typography-specimen.jpg",
-    "featured": false
-  }
+  "id": "gd-004",
+  "slug": "robot-mayhem",
+  "title": "Robot Mayhem",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2024,
+  "medium": "Illustration",
+  "images": [
+    { "src": "/images/graphic-design/bloom-brand-identity.jpg", "caption": "Primary logo mark" },
+    { "src": "/images/graphic-design/bloom-brand-identity-2.jpg", "caption": "Color palette and typography" },
+    { "src": "/images/graphic-design/bloom-brand-identity-3.jpg", "caption": "Packaging mockup" }
+  ],
+  "thumbnail": "/images/graphic-design/bloom-brand-identity.jpg",
+  "featured": true
+}
 ]
