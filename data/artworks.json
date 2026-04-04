@@ -79,15 +79,15 @@
   },
   {
     "id": "fd-002",
-    "slug": "figure-series-01",
-    "title": "Figure Series 01",
+    "slug": "bones-still-life",
+    "title": "Bones Still Life",
     "category": "figure-drawings",
-    "description": "A collection of two-minute gesture drawings capturing quick motion and dynamic poses. Continuous line technique keeps the energy raw and immediate.",
+    "description": "This work is a study of both human and animal anatomy, focusing on structure, proportion, and comparative form. The selective use of purple introduces a subtle contrast, enhancing visual interest while drawing attention to key areas within the composition.",
     "year": 2024,
-    "medium": "Ink on paper",
-    "dimensions": "9\" × 12\"",
-    "images": ["/images/figure-drawings/gesture-series-01.jpg"],
-    "thumbnail": "/images/figure-drawings/gesture-series-01.jpg",
+    "medium": "Charcoal and pastel on newsprint",
+    "dimensions": "24\" × 36\"",
+    "images": ["/images/figure-drawings/IMG_6792.jpeg"],
+    "thumbnail": "/images/figure-drawings/IMG_6792.jpeg",
     "featured": true
   },
   {
@@ -97,8 +97,8 @@
     "category": "figure-drawings",
     "description": "Academic torso study using three-value rendering to build volume. Graphite hatching follows the form to describe musculature and surface.",
     "year": 2023,
-    "medium": "Graphite on Bristol",
-    "dimensions": "11\" × 14\"",
+    "medium": "Charcoal on newsprint",
+    "dimensions": "24\" × 36\"",
     "images": ["/images/figure-drawings/torso-study.jpg"],
     "thumbnail": "/images/figure-drawings/torso-study.jpg",
     "featured": false
@@ -110,8 +110,8 @@
     "category": "figure-drawings",
     "description": "A portrait study rendered in sanguine chalk on toned paper, a technique referencing the Old Master tradition. Highlights are lifted with a kneaded eraser.",
     "year": 2023,
-    "medium": "Sanguine chalk on toned paper",
-    "dimensions": "14\" × 17\"",
+    "medium": "Charcoal on newsprint",
+    "dimensions": "24\" × 36\"",
     "images": ["/images/figure-drawings/portrait-in-red-chalk.jpg"],
     "thumbnail": "/images/figure-drawings/portrait-in-red-chalk.jpg",
     "featured": false
@@ -124,7 +124,7 @@
     "description": "A twenty-minute standing pose study exploring contrapposto and balance through simplified planes and directional light.",
     "year": 2022,
     "medium": "Charcoal on newsprint",
-    "dimensions": "18\" × 24\"",
+    "dimensions": "24\" × 36\"",
     "images": ["/images/figure-drawings/standing-pose.jpg"],
     "thumbnail": "/images/figure-drawings/standing-pose.jpg",
     "featured": false
