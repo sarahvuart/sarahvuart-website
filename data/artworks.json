@@ -66,15 +66,15 @@
   },
   {
     "id": "fd-001",
-    "slug": "resting-form",
-    "title": "Resting Form",
+    "slug": "self-portrait",
+    "title": "Self Portrait",
     "category": "figure-drawings",
-    "description": "A long-pose charcoal study exploring weight and repose. The model was positioned in a reclined posture, allowing the drawing to focus on mass and contour.",
-    "year": 2024,
+    "description": "This work is a self-portrait by the artist, Sarah, exploring the expressive potential of light and form. The use of harsh, directional lighting creates a heightened sense of drama while emphasizing the structural planes of the face. Rooted in direct observation, the piece prioritizes what is visually perceived over preconceived notions, resulting in a study that is both disciplined and perceptually driven.",
+    "year": 2023,
     "medium": "Charcoal on newsprint",
-    "dimensions": "18\" × 24\"",
-    "images": ["/images/figure-drawings/resting-form.jpg"],
-    "thumbnail": "/images/figure-drawings/resting-form.jpg",
+    "dimensions": "24\" × 36\"",
+    "images": ["/images/figure-drawings/IMG_6790.jpeg"],
+    "thumbnail": "/images/figure-drawings/IMG_6790.jpeg",
     "featured": true
   },
   {
