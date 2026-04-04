@@ -19,8 +19,7 @@ export default function ArtworkCard({
 }: ArtworkCardProps) {
   const [hovered, setHovered] = useState(false);
 
-  const aspectClass =
-    variant === 'wide' ? 'aspect-[4/3]' : 'aspect-[3/4]';
+  const aspectClass = '';
 
   return (
     <motion.div
@@ -36,20 +35,18 @@ export default function ArtworkCard({
         onMouseLeave={() => setHovered(false)}
       >
         {/* Image container */}
-        <div className={`relative overflow-hidden ${aspectClass} mb-4`}>
-          <motion.div
-            animate={{ scale: hovered ? 1.04 : 1 }}
-            transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="absolute inset-0"
-          >
-            <ArtworkImage
-              src={artwork.thumbnail}
-              alt={artwork.title}
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              placeholderText={artwork.title[0]}
-              placeholderIndex={index}
-            />
-          </motion.div>
+        <div className="relative overflow-hidden mb-4">
+  <motion.div
+    animate={{ scale: hovered ? 1.04 : 1 }}
+    transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
+  >
+    <img
+      src={artwork.thumbnail}
+      alt={artwork.title}
+      className="w-full h-auto block"
+      loading={index < 4 ? 'eager' : 'lazy'}
+    />
+  </motion.div>
 
           {/* Hover overlay */}
           <motion.div
