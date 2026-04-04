@@ -20,10 +20,12 @@ export default function ArtworkGrid({ artworks }: ArtworkGridProps) {
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-      {artworks.map((artwork, i) => (
-        <ArtworkCard key={artwork.id} artwork={artwork} index={i} />
-      ))}
+    <div className="columns-1 sm:columns-2 lg:columns-3 gap-6">
+  {artworks.map((artwork, i) => (
+    <div key={artwork.id} className="break-inside-avoid mb-6">
+      <ArtworkCard artwork={artwork} index={i} />
     </div>
+  ))}
+</div>
   );
 }
