@@ -53,15 +53,15 @@
   },
   {
     "id": "p-005",
-    "slug": "figure-in-ochre",
-    "title": "Figure in Ochre",
+    "slug": "color-theory-study",
+    "title": "Color Theory Study",
     "category": "paintings",
-    "description": "A figure study built from warm earth tones — raw sienna, yellow ochre, and burnt umber layered to suggest form through color rather than outline.",
+    "description": "This painting was developed as part of a coursework assignment completed by Sarah at the University of Central Florida. The composition juxtaposes natural, organic forms—such as flowers—with the angular, structural geometry of man-made architecture, creating a visual dialogue between the organic and the constructed. The work emphasizes the application of color theory, integrating analogous, monochromatic, tertiary, and complementary color harmonies to achieve a cohesive and visually engaging composition.",
     "year": 2022,
-    "medium": "Oil on canvas",
+    "medium": "Acrylic on paper",
     "dimensions": "18\" × 24\"",
-    "images": ["/images/paintings/figure-in-ochre.jpg"],
-    "thumbnail": "/images/paintings/figure-in-ochre.jpg",
+    "images": ["/images/paintings/IMG_5339.jpeg"],
+    "thumbnail": "/images/paintings/IMG_5339.jpeg",
     "featured": true
   },
   {
