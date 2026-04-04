@@ -59,15 +59,14 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pb-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           {/* Image */}
-          <div className="relative aspect-[4/5] overflow-hidden bg-cream-dark">
-            <ArtworkImage
-              src={artwork.images[0]}
-              alt={artwork.title}
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              priority
-              placeholderText={artwork.title[0]}
-            />
-          </div>
+          <div className="overflow-hidden bg-cream-dark">
+  <img
+    src={artwork.images[0]}
+    alt={artwork.title}
+    className="w-full h-auto block"
+    loading="eager"
+  />
+</div>
 
           {/* Info */}
           <div className="lg:pt-8 lg:sticky lg:top-32">
