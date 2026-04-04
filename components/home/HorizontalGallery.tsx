@@ -23,26 +23,25 @@ function GalleryCard({ artwork, index }: GalleryCardProps) {
   return (
     <Link
       href={`/works/${artwork.category}/${artwork.slug}`}
-      className="relative flex-shrink-0 w-72 md:w-80 h-96 overflow-hidden group block"
+      className="relative flex-shrink-0 overflow-hidden group block h-80"
+      style={{ width: 'max-content' }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      {/* Image */}
       <motion.div
         animate={{ scale: hovered ? 1.05 : 1 }}
         transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
-        className="absolute inset-0"
+        className="h-full"
       >
-        <ArtworkImage
+        <img
           src={artwork.thumbnail}
           alt={artwork.title}
-          sizes="(max-width: 768px) 288px, 320px"
-          priority={index < 3}
-          placeholderIndex={index}
+          className="h-full w-auto object-contain"
+          loading={index < 3 ? 'eager' : 'lazy'}
         />
       </motion.div>
 
-      {/* Overlay */}
+      {/* Overlay - same as before */}
       <motion.div
         animate={{ opacity: hovered ? 1 : 0 }}
         transition={{ duration: 0.35 }}
