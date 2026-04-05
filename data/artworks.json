@@ -177,6 +177,18 @@
     "thumbnail": "/images/photography/IMG_1571.JPG",
     "featured": false
   },
+  {
+    "id": "ph-005",
+    "slug": "rusted-farmhouse",
+    "title": "Rusted Farmhouse",
+    "category": "photography",
+    "description": "This photograph was taken outside the home of Sarah’s grandmother in Huế, Vietnam, serving as a deeply personal reflection within her broader body of work. As she traveled throughout the country, the experience prompted a consideration of her family’s origins—from modest beginnings to the journey of rebuilding a life in the United States. The image evokes a sense of stillness and simplicity, recalling quieter rhythms of the past while honoring the resilience and history embedded in place. It functions as both a moment of reflection and a visual acknowledgment of heritage, memory, and the enduring connection to one’s roots.",
+    "year": 2024,
+    "medium": "Digital, Sony A6000",
+    "images": ["/images/photography/IMG_1583.JPG"],
+    "thumbnail": "/images/photography/IMG_1583.JPG",
+    "featured": false
+  },
  {
   "id": "gd-001",
   "slug": "ml-pro-nails-brand-identity",
