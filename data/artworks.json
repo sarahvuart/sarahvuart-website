@@ -189,6 +189,18 @@
     "thumbnail": "/images/photography/IMG_1583.JPG",
     "featured": false
   },
+  {
+    "id": "ph-006",
+    "slug": "woman-selling-at-market",
+    "title": "Woman Selling at Market",
+    "category": "photography",
+    "description": "This photograph was taken while walking through the markets of Huế, Vietnam, just steps from Sarah’s grandfather’s home. Surrounded by displays of freshly caught fish, vegetables, and preserved goods, the scene captures the rhythms of daily life and the labor that sustains it. In engaging with this environment, Sarah reflects on a sense of empathy and connection to the individuals whose livelihoods unfold within these spaces. The experience prompts a deeper consideration of identity and circumstance—an awareness of her family’s choices to build a life in the United States, alongside a contemplation of the alternate paths her life might have taken. The image becomes both a document of place and a meditation on gratitude, possibility, and belonging.",
+    "year": 2024,
+    "medium": "Digital, Sony A6000",
+    "images": ["/images/photography/IMG_1593.JPG"],
+    "thumbnail": "/images/photography/IMG_1593.JPG",
+    "featured": false
+  },
  {
   "id": "gd-001",
   "slug": "ml-pro-nails-brand-identity",
