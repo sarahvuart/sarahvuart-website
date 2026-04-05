@@ -62,7 +62,7 @@
     "dimensions": "18\" × 24\"",
     "images": ["/images/paintings/IMG_5339.jpeg"],
     "thumbnail": "/images/paintings/IMG_5339.jpeg",
-    "featured": true
+    "featured": false
   },
   {
     "id": "fd-001",
@@ -127,7 +127,7 @@
     "dimensions": "24\" × 36\"",
     "images": ["/images/figure-drawing/IMG_6892.jpeg"],
     "thumbnail": "/images/figure-drawing/IMG_6892.jpeg",
-    "featured": false
+    "featured": true
   },
   {
     "id": "ph-001",
@@ -175,7 +175,7 @@
     "medium": "Digital, Sony A6000",
     "images": ["/images/photography/IMG_1571.JPG"],
     "thumbnail": "/images/photography/IMG_1571.JPG",
-    "featured": false
+    "featured": true
   },
   {
     "id": "ph-005",
@@ -187,7 +187,7 @@
     "medium": "Digital, Sony A6000",
     "images": ["/images/photography/IMG_1583.JPG"],
     "thumbnail": "/images/photography/IMG_1583.JPG",
-    "featured": false
+    "featured": true
   },
   {
     "id": "ph-006",
