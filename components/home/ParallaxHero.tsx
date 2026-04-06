@@ -29,9 +29,11 @@ export default function ParallaxHero() {
         style={{ y: bgY, scale: bgScale }}
         className="absolute inset-0 w-full h-full"
       >
-        {/* Rich layered gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-cream via-cream-dark to-[#e8ddd0]" />
-
+        <img
+          src="/images/hero.jpg"
+          alt="Hero background"
+          className="absolute inset-0 w-full h-full object-cover"
+/>
         {/* Decorative organic shapes */}
         <div className="absolute -top-20 -right-20 w-[600px] h-[600px] rounded-full bg-accent/8 blur-3xl" />
         <div className="absolute bottom-0 -left-40 w-[500px] h-[500px] rounded-full bg-accent/6 blur-3xl" />
