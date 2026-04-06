@@ -23,10 +23,9 @@ export default function ArtworkCard({
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-60px' }}
-      transition={{ duration: 0.6, delay: (index % 4) * 0.1 }}
+      initial={{ opacity: 0, y: 12 }}
+animate={{ opacity: 1, y: 0 }}
+transition={{ duration: 0.4, delay: (index % 6) * 0.07 }}
     >
       <Link
         href={`/works/${artwork.category}/${artwork.slug}`}
