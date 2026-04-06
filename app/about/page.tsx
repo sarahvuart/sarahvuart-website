@@ -23,7 +23,6 @@ const skills = [
   'Acrylic',
   'Charcoal & Pastel',
   'Figure Drawing',
-  'Film Photography',
   'Digital Photography',
   'Brand Identity',
   'Editorial Layout',
