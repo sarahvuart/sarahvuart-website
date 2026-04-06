@@ -17,9 +17,9 @@ const experience = [
     note: 'Brand identity and print projects for regional clients.',
   },
   {
-    role: 'BFA, Studio Art',
-    years: '2016 – 2020',
-    note: 'Focus in painting and drawing with a minor in graphic design.',
+    role: 'BA, Studio Art',
+    years: '2020 – 2024',
+    note: 'Focus in painting and drawing with experience in photography, graphic design, and sculpting.',
   },
 ];
 
