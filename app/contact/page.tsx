@@ -90,10 +90,10 @@ export default function ContactPage() {
                 Feel free to leave a message via the form, or reach me directly
                 at{' '}
                 <a
-                  href="mailto:hello@sarahvuart.com"
+                  href="mailto:sarah.vu.art@gmail.com"
                   className="text-accent hover:text-accent-dark transition-colors underline underline-offset-2"
                 >
-                  hello@sarahvuart.com
+                  sarah.vu.art@gmail.com
                 </a>
               </p>
 
