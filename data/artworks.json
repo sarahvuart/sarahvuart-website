@@ -69,12 +69,25 @@
     "slug": "koi-fish-and-orchids",
     "title": "Koi Fish and Orchids",
     "category": "paintings",
-    "description": "This painting was developed as part of a coursework assignment completed by Sarah at the University of Central Florida. The composition juxtaposes natural, organic forms—such as flowers—with the angular, structural geometry of man-made architecture, creating a visual dialogue between the organic and the constructed. The work emphasizes the application of color theory, integrating analogous, monochromatic, tertiary, and complementary color harmonies to achieve a cohesive and visually engaging composition.",
+    "description": "This mural was commissioned by an award-winning business as part of a two-piece installation designed to enrich the environment and elevate the overall atmosphere. As the second of the two murals, it plays a key role in creating a visually engaging space that invites connection and interaction within the community. The imagery centers on a koi pond, a subject chosen with intention and cultural significance. Koi fish are often associated with prosperity, good fortune, and abundance, symbolizing the client’s aspirations for continued success and positive energy within their space. Through this work, the mural not only enhances the aesthetic experience but also reflects a deeper narrative of growth, luck, and community engagement.",
     "year": 2019,
     "medium": "Acrylic on drywall",
     "dimensions": "72\" × 72\"",
     "images": ["/images/paintings/IMG_1604.JPG"],
     "thumbnail": "/images/paintings/IMG_1604.JPG",
+    "featured": true
+  },
+  {
+    "id": "p-007",
+    "slug": "purple-orchids",
+    "title": "Purple Orchids",
+    "category": "paintings",
+    "description": "This painting was commissioned by an award-winning business as the first of two murals created to enhance the space and elevate its atmosphere. As the first mural to be painted, it serves as a foundational visual element, thoughtfully designed to create an inviting and engaging environment that fosters a sense of connection within the community. The imagery features the business’s favorite flower, the orchid, which appears throughout the space as a unifying motif. The intention was to emphasize the elegance of the orchid while seamlessly tying it into the surrounding foliage found across the business. Orchids are often associated with love, luxury, and beauty—qualities that reflect the essence of the nail salon. Through this floral theme, the mural captures and expresses the refined, welcoming experience the business aims to provide.",
+    "year": 2019,
+    "medium": "Acrylic on drywall",
+    "dimensions": "72\" × 72\"",
+    "images": ["/images/paintings/IMG_3914.jpeg"],
+    "thumbnail": "/images/paintings/IMG_3914.jpeg",
     "featured": true
   },
   {
