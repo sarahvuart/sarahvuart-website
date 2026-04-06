@@ -65,6 +65,19 @@
     "featured": false
   },
   {
+    "id": "p-006",
+    "slug": "koi-fish-and-orchids",
+    "title": "Koi Fish and Orchids",
+    "category": "paintings",
+    "description": "This painting was developed as part of a coursework assignment completed by Sarah at the University of Central Florida. The composition juxtaposes natural, organic forms—such as flowers—with the angular, structural geometry of man-made architecture, creating a visual dialogue between the organic and the constructed. The work emphasizes the application of color theory, integrating analogous, monochromatic, tertiary, and complementary color harmonies to achieve a cohesive and visually engaging composition.",
+    "year": 2019,
+    "medium": "Acrylic on drywall",
+    "dimensions": "72\" × 72\"",
+    "images": ["/images/paintings/IMG_1604.JPG"],
+    "thumbnail": "/images/paintings/IMG_1604.JPG",
+    "featured": true
+  },
+  {
     "id": "fd-001",
     "slug": "self-portrait",
     "title": "Self Portrait",
