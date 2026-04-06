@@ -12,11 +12,6 @@ const experience = [
     note: 'Independent practice in painting, illustration, and brand design.',
   },
   {
-    role: 'Design Studio Assistant',
-    years: '2020 – 2022',
-    note: 'Brand identity and print projects for regional clients.',
-  },
-  {
     role: 'BA, Studio Art',
     years: '2020 – 2024',
     note: 'Focus in painting and drawing with experience in photography, graphic design, and sculpting.',
