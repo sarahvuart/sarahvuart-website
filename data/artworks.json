@@ -144,8 +144,8 @@
   },
   {
     "id": "fd-003",
-    "slug": "portrait-study",
-    "title": "Portrait Study",
+    "slug": "portrait-study-2",
+    "title": "Portrait Study #2",
     "category": "figure-drawings",
     "description": "This work is an academic portrait study of a live model, emphasizing careful observation and technical precision. Through the application of color theory and pastel drawing techniques, the artist builds nuanced, lifelike skin tones, creating a sense of depth and presence on the paper.",
     "year": 2023,
@@ -193,6 +193,19 @@
     "images": ["/images/figure-drawing/IMG_6873.jpeg"],
     "thumbnail": "/images/figure-drawing/IMG_6873.jpeg",
     "featured": true
+  },
+   {
+    "id": "fd-007",
+    "slug": "portrait-study-5",
+    "title": "Portrait Study #5",
+    "category": "figure-drawings",
+    "description": "This work is an academic portrait study of a live model, emphasizing careful observation and technical precision. Through the application of color theory and pastel drawing techniques, the artist builds nuanced, lifelike skin tones, creating a sense of depth and presence on the paper.",
+    "year": 2023,
+    "medium": "Pastel on pastel paper",
+    "dimensions": "8\" × 11\"",
+    "images": ["/images/figure-drawing/IMG_6881.jpeg"],
+    "thumbnail": "/images/figure-drawing/IMG_6881.jpeg",
+    "featured": false
   },
   {
     "id": "ph-001",
