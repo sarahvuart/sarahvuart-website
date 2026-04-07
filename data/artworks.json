@@ -170,8 +170,8 @@
   },
   {
     "id": "fd-005",
-    "slug": "model-and-still-life",
-    "title": "Model and Still Life",
+    "slug": "model-and-still-life-8",
+    "title": "Model and Still Life #8",
     "category": "figure-drawings",
     "description": "This drawing originates from a live figure session incorporating still-life elements, including human and animal skeletons. The composition emphasizes accuracy in the rendering of each figure, while the centrally positioned skeleton is developed with greater definition to guide the viewer’s attention. This contrast in emphasis establishes a clear focal point and reinforces the structural relationships within the scene.",
     "year": 2023,
@@ -179,6 +179,19 @@
     "dimensions": "24\" × 36\"",
     "images": ["/images/figure-drawing/IMG_6892.jpeg"],
     "thumbnail": "/images/figure-drawing/IMG_6892.jpeg",
+    "featured": true
+  },
+   {
+    "id": "fd-006",
+    "slug": "model-and-still-life-4",
+    "title": "Model and Still Life #4",
+    "category": "figure-drawings",
+    "description": "This drawing originates from a live figure session that incorporated both human and still-life elements, including surrounding plant forms. The composition explores spatial depth through tonal contrast, with the foreground plant rendered in darker values and the figure in lighter tones to suggest its placement further in the background. Particular emphasis is placed on the treatment of light across the model’s back, where highlights are used both to define the musculature and to guide the viewer’s eye. The selective use of white charcoal in this area creates a focal point, drawing attention to the form while reinforcing the overall sense of depth and composition.",
+    "year": 2023,
+    "medium": "Charcoal on newsprint",
+    "dimensions": "24\" × 36\"",
+    "images": ["/images/figure-drawing/IMG_6873.jpeg"],
+    "thumbnail": "/images/figure-drawing/IMG_6873.jpeg",
     "featured": true
   },
   {
