@@ -90,6 +90,19 @@
     "thumbnail": "/images/paintings/IMG_3914.jpeg",
     "featured": true
   },
+    {
+    "id": "p-008",
+    "slug": "backyard-duck",
+    "title": "Backyard Duck",
+    "category": "paintings",
+    "description": "This painting was created as a heartfelt gift for Sarah’s father, inspired by his deep appreciation for the vibrant life within his backyard, a space filled with lush plants, fruit-bearing trees, and the presence of a beloved 'little' duck. The composition reflects not only the physical beauty of the garden, but also the sense of joy and care that defined it. Following her parents’ move from this cherished home, the painting now serves as a lasting tribute to a place rich with personal meaning. As time passes and circumstances evolve, such pieces become important anchors to memory. Whether through a photograph, written word, or painting, these tangible reminders offer comfort and connection to moments and spaces that continue to live on beyond change.",
+    "year": 2023,
+    "medium": "Acrylic on canvas",
+    "dimensions": "48\" × 36\"",
+    "images": ["/images/paintings/IMG_7426.jpeg"],
+    "thumbnail": "/images/paintings/IMG_7426.jpeg",
+    "featured": true
+  },
   {
     "id": "fd-001",
     "slug": "self-portrait",
