@@ -103,6 +103,19 @@
     "thumbnail": "/images/paintings/IMG_7426.jpeg",
     "featured": true
   },
+   {
+    "id": "p-009",
+    "slug": "alto-saxophone",
+    "title": "Alto Saxophone",
+    "category": "paintings",
+    "description": "Similar to the violin painting, this work depicts another of Sarah’s friend’s instruments, continuing an exploration of personal objects as artistic subjects. While it shares a thematic connection to the earlier piece, it was created under a different context and intention. This painting functioned primarily as a study, focusing on the challenges of rendering metallic surfaces and refining an understanding of color relationships. Through this process, the work emphasizes observation, technique, and material translation, serving as both a technical exercise and an extension of the artist’s ongoing exploration of form and light.",
+    "year": 2019,
+    "medium": "Acrylic on wood",
+    "dimensions": "9\" × 9\"",
+    "images": ["/images/paintings/IMG_2894.jpeg"],
+    "thumbnail": "/images/paintings/IMG_2894.jpeg",
+    "featured": false
+  },
   {
     "id": "fd-001",
     "slug": "self-portrait",
