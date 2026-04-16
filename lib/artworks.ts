@@ -28,7 +28,7 @@ export const CATEGORIES: CategoryMeta[] = [
   slug: 'installations',
   label: 'Installations',
   description: 'Site-specific and spatial installation work.',
-},
+  },
 ];
 
 export function getAllArtworks(): Artwork[] {
