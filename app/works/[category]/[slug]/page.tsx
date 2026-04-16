@@ -87,7 +87,6 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
             )}
 
             <div className="columns-1 sm:columns-2 gap-4 mb-12">
-            <div className="columns-1 sm:columns-2 gap-4 mb-12">
               {images.map((img, i) => (
                 <div key={i} className="break-inside-avoid mb-4">
                   <img
