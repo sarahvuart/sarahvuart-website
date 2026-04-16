@@ -19,6 +19,7 @@ export interface Artwork {
   year: number;
   medium?: string;
   dimensions?: string;
+  link?: string;
   images: string[] | ArtworkImage[];
   thumbnail: string;
   featured: boolean;
