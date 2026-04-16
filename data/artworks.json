@@ -328,6 +328,42 @@
   "thumbnail": "/images/graphic-design/MLPronails&Spa.png",
   "featured": true
 },
+    {
+  "id": "gd-004",
+  "slug": "robot-destruction",
+  "title": "Robot Destruction",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2024,
+  "medium": "Digital Illustration",
+  "images": ["/images/graphic-design/IMG_1593.JPG"],
+  "thumbnail": "/images/graphic-design/IMG_1593.JPG",
+  "featured": false
+},
+      {
+  "id": "gd-005",
+  "slug": "neverending-story",
+  "title": "Neverending Story",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2024,
+  "medium": "Digital Illustration",
+  "images": ["/images/graphic-design/IMG_1593.JPG"],
+  "thumbnail": "/images/graphic-design/IMG_1593.JPG",
+  "featured": false
+},
+      {
+  "id": "gd-006",
+  "slug": "sorry-wrong-number",
+  "title": "Sorry Wrong Number",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2024,
+  "medium": "Digital Illustration",
+  "images": ["/images/graphic-design/IMG_1593.JPG"],
+  "thumbnail": "/images/graphic-design/IMG_1593.JPG",
+  "featured": false
+},
   {
   "id": "in-001",
   "slug": "dancing-houses-ucf",
