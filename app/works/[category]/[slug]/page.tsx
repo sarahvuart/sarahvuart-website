@@ -69,6 +69,29 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
        {isGraphicDesign ? (
   <>
     {/* Mosaic image grid */}
+    {isGraphicDesign ? (
+  <>
+    {/* Link — shown above images if present */}
+    {artwork.link && (
+      <div className="mb-8">
+        
+          href={artwork.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm tracking-wide underline underline-offset-4 transition-colors duration-200"
+          style={{
+            fontFamily: 'var(--font-inter), sans-serif',
+            color: '#c4a77d',
+          }}
+        >
+          {artwork.link}
+        </a>
+      </div>
+    )}
+
+    {/* Mosaic image grid */}
+    <div className="columns-1 sm:columns-2 gap-4 mb-12">
+      ...
     <div className="columns-1 sm:columns-2 gap-4 mb-12">
       ...
               {images.map((img, i) => (
