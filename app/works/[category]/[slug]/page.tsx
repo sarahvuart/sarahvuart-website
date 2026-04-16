@@ -66,10 +66,29 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pb-24">
 
-        {isGraphicDesign ? (
-          /* ── Graphic Design: mosaic grid, info below ── */
-          <>
-            <div className="columns-1 sm:columns-2 gap-4 mb-12">
+       {isGraphicDesign ? (
+  <>
+    {/* Link — shown above images if present */}
+    {artwork.link && (
+      <div className="mb-8">
+        
+          href={artwork.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm tracking-wide underline underline-offset-4 transition-colors duration-200"
+          style={{
+            fontFamily: 'var(--font-inter), sans-serif',
+            color: '#c4a77d',
+          }}
+        >
+          {artwork.link}
+        </a>
+      </div>
+    )}
+
+    {/* Mosaic image grid */}
+    <div className="columns-1 sm:columns-2 gap-4 mb-12">
+      ...
               {images.map((img, i) => (
                 <div key={i} className="break-inside-avoid mb-4">
                   <img
