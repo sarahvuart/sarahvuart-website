@@ -353,6 +353,18 @@
   "featured": false
 },
   {
+  "id": "gd-006",
+  "slug": "sorry-wrong-number",
+  "title": "Sorry Wrong Number",
+  "category": "graphic-design",
+  "description": "Full brand identity system for a botanical skincare startup...",
+  "year": 2024,
+  "medium": "Digital Illustration",
+  "images": ["/images/graphic-design/IMG_2273.JPG"],
+  "thumbnail": "/images/graphic-design/IMG_2273.JPG",
+  "featured": false
+},
+  {
   "id": "in-001",
   "slug": "dancing-houses-ucf",
   "title": "Dancing Houses 'Madison'",
