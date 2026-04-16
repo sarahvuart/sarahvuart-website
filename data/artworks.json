@@ -362,12 +362,10 @@
   "medium": "Digital Illustration",
   "images": ["/images/graphic-design/IMG_2273.JPG"],
   "thumbnail": "/images/graphic-design/IMG_2273.JPG",
-  "featured": false
-},
-]
-},
-{
-  "id": "in-001",
+ "featured": false
+  },
+  {
+    "id": "in-001",
   "slug": "your-installation-slug",
   "title": "Your Installation Title",
   "category": "installations",
