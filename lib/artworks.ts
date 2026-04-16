@@ -24,11 +24,11 @@ export const CATEGORIES: CategoryMeta[] = [
     label: 'Graphic Design',
     description: 'Brand identity and typographic design work.',
   },
-  {
+{
   slug: 'installations',
   label: 'Installations',
   description: 'Site-specific and spatial installation work.',
-  },
+},
 ];
 
 export function getAllArtworks(): Artwork[] {
