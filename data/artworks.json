@@ -366,17 +366,17 @@
   },
   {
     "id": "in-001",
-  "slug": "your-installation-slug",
-  "title": "Your Installation Title",
+  "slug": "dancing-houses-madison",
+  "title": "Dancing Houses 'Madison'",
   "category": "installations",
   "description": "Your installation description here.",
-  "year": 2024,
+  "year": 2022,
   "medium": "Mixed media installation",
   "images": [
-    { "src": "/images/installations/image1.jpg", "caption": "Your caption here" },
-    { "src": "/images/installations/image2.jpg", "caption": "Your caption here" }
+    { "src": "/images/installations/Dancinghouse_final.png", "caption": "Your caption here" },
+    { "src": "/images/installations/Dancinghouse_wip.png", "caption": "Your caption here" }
   ],
-  "thumbnail": "/images/installations/image1.jpg",
+  "thumbnail": "/images/installations/ucfcelebrates.png",
   "featured": true
 }
 ]
