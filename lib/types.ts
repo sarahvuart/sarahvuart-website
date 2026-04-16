@@ -2,7 +2,8 @@ export type ArtworkCategory =
   | 'paintings'
   | 'figure-drawings'
   | 'photography'
-  | 'graphic-design';
+  | 'graphic-design'
+  | 'installations';
 
 export interface ArtworkImage {
   src: string;
