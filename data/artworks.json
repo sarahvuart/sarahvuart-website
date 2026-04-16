@@ -332,8 +332,8 @@
       { "src": "/images/graphic-design/Line2.jpg", "caption": "Line art illustration p.2" },
       { "src": "/images/graphic-design/Line6.jpg", "caption": "Line art illustration p.6" },
       { "src": "/images/graphic-design/Coverthumbnails.JPEG", "caption": "Cover thumbnails" },
-      { "src": "/images/graphic-design/CoverThumbnails1.JPEG", "caption": "Story thumbnails p1-p8" },
-      { "src": "/images/graphic-design/CoverThumbnails2.JPEG", "caption": "Story thumbnails p9-p12" },
+      { "src": "/images/graphic-design/ComicThumbnails1.JPEG", "caption": "Story thumbnails p1-p8" },
+      { "src": "/images/graphic-design/ComicThumbnails2.JPEG", "caption": "Story thumbnails p9-p12" },
       { "src": "/images/graphic-design/CardLayout.JPEG", "caption": "Index card general sketch and story layout" }
     ],
     "thumbnail": "/images/graphic-design/Cover.JPEG",
