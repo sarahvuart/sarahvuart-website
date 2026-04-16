@@ -327,5 +327,19 @@
   ],
   "thumbnail": "/images/graphic-design/MLPronails&Spa.png",
   "featured": true
+},
+  {
+  "id": "in-001",
+  "slug": "your-installation-slug",
+  "title": "Your Installation Title",
+  "category": "installations",
+  "description": "Your installation description here.",
+  "year": 2024,
+  "medium": "Mixed media installation",
+  "images": [
+    { "src": "/images/installations/image1.jpg", "caption": "Your caption here" }
+  ],
+  "thumbnail": "/images/installations/image1.jpg",
+  "featured": false
 }
 ]
