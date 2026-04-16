@@ -20,7 +20,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// Helper to normalize images to ArtworkImage[]
 function normalizeImages(images: string[] | ArtworkImage[]): ArtworkImage[] {
   return images.map((img) =>
     typeof img === 'string' ? { src: img } : img
@@ -39,6 +38,7 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
     .slice(0, 3);
 
   const isGraphicDesign = category === 'graphic-design';
+  const isInstallation = category === 'installations';
   const images = normalizeImages(artwork.images);
 
   return (
@@ -67,9 +67,8 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pb-24">
 
         {isGraphicDesign ? (
-          /* ── Graphic Design layout: mosaic images, then info below ── */
+          /* ── Graphic Design: mosaic grid, info below ── */
           <>
-            {/* Mosaic image grid */}
             <div className="columns-1 sm:columns-2 gap-4 mb-12">
               {images.map((img, i) => (
                 <div key={i} className="break-inside-avoid mb-4">
@@ -90,27 +89,10 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
                 </div>
               ))}
             </div>
-
-            {/* Info below images */}
             <div className="max-w-2xl">
-              <p
-                className="text-xs tracking-[0.3em] uppercase text-accent mb-4"
-                style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-              >
-                {categoryMeta?.label}
-              </p>
-              <h1
-                className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight"
-                style={{ fontFamily: 'var(--font-playfair), serif' }}
-              >
-                {artwork.title}
-              </h1>
-              <p
-                className="text-base text-warm-gray leading-relaxed mb-10"
-                style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-              >
-                {artwork.description}
-              </p>
+              <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{categoryMeta?.label}</p>
+              <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight" style={{ fontFamily: 'var(--font-playfair), serif' }}>{artwork.title}</h1>
+              <p className="text-base text-warm-gray leading-relaxed mb-10" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.description}</p>
               <dl className="space-y-4 border-t border-cream-dark pt-8">
                 <div className="flex gap-8">
                   <dt className="text-xs tracking-[0.2em] uppercase text-warm-gray/60 w-28 flex-shrink-0" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>Year</dt>
@@ -124,49 +106,76 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
                 )}
               </dl>
               <div className="mt-10">
-                <Link
-                  href={`/works/${category}`}
-                  className="inline-flex items-center gap-3 text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5"
-                  style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-                >
+                <Link href={`/works/${category}`} className="inline-flex items-center gap-3 text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>
                   ← Back to {categoryMeta?.label}
                 </Link>
               </div>
             </div>
           </>
+
+        ) : isInstallation ? (
+          /* ── Installations: single column images with captions, info below ── */
+          <div className="max-w-3xl mx-auto">
+            <div className="flex flex-col gap-10 mb-16">
+              {images.map((img, i) => (
+                <figure key={i} className="w-full">
+                  <img
+                    src={img.src}
+                    alt={img.caption ?? artwork.title}
+                    className="w-full h-auto block"
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                  />
+                  {img.caption && (
+                    <figcaption
+                      className="mt-3 text-xs text-warm-gray/70 tracking-wide"
+                      style={{ fontFamily: 'var(--font-inter), sans-serif' }}
+                    >
+                      {img.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              ))}
+            </div>
+            <div className="border-t border-cream-dark pt-10">
+              <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{categoryMeta?.label}</p>
+              <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight" style={{ fontFamily: 'var(--font-playfair), serif' }}>{artwork.title}</h1>
+              <p className="text-base text-warm-gray leading-relaxed mb-10" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.description}</p>
+              <dl className="space-y-4 border-t border-cream-dark pt-8">
+                <div className="flex gap-8">
+                  <dt className="text-xs tracking-[0.2em] uppercase text-warm-gray/60 w-28 flex-shrink-0" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>Year</dt>
+                  <dd className="text-sm text-charcoal" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.year}</dd>
+                </div>
+                {artwork.medium && (
+                  <div className="flex gap-8">
+                    <dt className="text-xs tracking-[0.2em] uppercase text-warm-gray/60 w-28 flex-shrink-0" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>Medium</dt>
+                    <dd className="text-sm text-charcoal" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.medium}</dd>
+                  </div>
+                )}
+                {artwork.dimensions && (
+                  <div className="flex gap-8">
+                    <dt className="text-xs tracking-[0.2em] uppercase text-warm-gray/60 w-28 flex-shrink-0" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>Dimensions</dt>
+                    <dd className="text-sm text-charcoal" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.dimensions}</dd>
+                  </div>
+                )}
+              </dl>
+              <div className="mt-10">
+                <Link href={`/works/${category}`} className="inline-flex items-center gap-3 text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>
+                  ← Back to {categoryMeta?.label}
+                </Link>
+              </div>
+            </div>
+          </div>
+
         ) : (
           /* ── All other categories: single image + info side by side ── */
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            {/* Image */}
             <div className="overflow-hidden bg-cream-dark">
-              <img
-                src={images[0]?.src ?? ''}
-                alt={artwork.title}
-                className="w-full h-auto block"
-                loading="eager"
-              />
+              <img src={images[0]?.src ?? ''} alt={artwork.title} className="w-full h-auto block" loading="eager" />
             </div>
-
-            {/* Info */}
             <div className="lg:pt-8 lg:sticky lg:top-32">
-              <p
-                className="text-xs tracking-[0.3em] uppercase text-accent mb-4"
-                style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-              >
-                {categoryMeta?.label}
-              </p>
-              <h1
-                className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight"
-                style={{ fontFamily: 'var(--font-playfair), serif' }}
-              >
-                {artwork.title}
-              </h1>
-              <p
-                className="text-base text-warm-gray leading-relaxed mb-10"
-                style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-              >
-                {artwork.description}
-              </p>
+              <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{categoryMeta?.label}</p>
+              <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight" style={{ fontFamily: 'var(--font-playfair), serif' }}>{artwork.title}</h1>
+              <p className="text-base text-warm-gray leading-relaxed mb-10" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.description}</p>
               <dl className="space-y-4 border-t border-cream-dark pt-8">
                 <div className="flex gap-8">
                   <dt className="text-xs tracking-[0.2em] uppercase text-warm-gray/60 w-28 flex-shrink-0" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>Year</dt>
@@ -187,18 +196,12 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
                 <div className="flex gap-8">
                   <dt className="text-xs tracking-[0.2em] uppercase text-warm-gray/60 w-28 flex-shrink-0" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>Category</dt>
                   <dd className="text-sm text-charcoal" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>
-                    <Link href={`/works/${category}`} className="hover:text-accent transition-colors">
-                      {categoryMeta?.label}
-                    </Link>
+                    <Link href={`/works/${category}`} className="hover:text-accent transition-colors">{categoryMeta?.label}</Link>
                   </dd>
                 </div>
               </dl>
               <div className="mt-10">
-                <Link
-                  href={`/works/${category}`}
-                  className="inline-flex items-center gap-3 text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5"
-                  style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-                >
+                <Link href={`/works/${category}`} className="inline-flex items-center gap-3 text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>
                   ← Back to {categoryMeta?.label}
                 </Link>
               </div>
@@ -210,19 +213,8 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
         {related.length > 0 && (
           <div className="mt-24">
             <div className="flex items-end justify-between mb-10">
-              <h2
-                className="text-3xl font-bold text-charcoal"
-                style={{ fontFamily: 'var(--font-playfair), serif' }}
-              >
-                More {categoryMeta?.label}
-              </h2>
-              <Link
-                href={`/works/${category}`}
-                className="hidden sm:flex text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5"
-                style={{ fontFamily: 'var(--font-inter), sans-serif' }}
-              >
-                View All
-              </Link>
+              <h2 className="text-3xl font-bold text-charcoal" style={{ fontFamily: 'var(--font-playfair), serif' }}>More {categoryMeta?.label}</h2>
+              <Link href={`/works/${category}`} className="hidden sm:flex text-xs tracking-[0.2em] uppercase text-charcoal-light hover:text-accent transition-colors border-b border-current pb-0.5" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>View All</Link>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {related.map((a, i) => (
