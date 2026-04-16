@@ -364,22 +364,21 @@
   "thumbnail": "/images/graphic-design/IMG_2273.JPG",
   "featured": false
 },
-  {
+]
+},
+{
   "id": "in-001",
-  "slug": "dancing-houses-ucf",
-  "title": "Dancing Houses 'Madison'",
+  "slug": "your-installation-slug",
+  "title": "Your Installation Title",
   "category": "installations",
-  "description": "This installation, titled Madison, was created for the 2022 UCF Celebrates the Arts, presented at the Dr. Phillips Center for the Performing Arts. The title references Madison Square Garden, drawing a conceptual link to one of New York City’s most iconic venues for live music and performance. The project envisions a vibrant streetscape in which a row of houses comes to life through the energy and presence of music shared throughout the neighborhood. Each structure is designed to embody a distinct musical genre; this particular installation interprets pop music through architectural form. Drawing inspiration from the iconic New York Brownstone, Sarah and her team developed a design that balances stylization with realism. Details such as a rear fire escape reinforce the urban character and evoke the atmosphere of New York City, while maintaining the illusion that the structure itself has been animated by sound. A split-complementary color palette was carefully selected to establish visual harmony while reflecting the lively, dynamic qualities of pop music. Over the course of approximately three to four months, the installation was constructed using a combination of traditional and digital fabrication techniques, including sawing and laser cutting. Materials such as wood, chipboard, grout, and cardstock were employed to achieve both structural integrity and refined surface detail.",
-  "year": 2022,
+  "description": "Your installation description here.",
+  "year": 2024,
   "medium": "Mixed media installation",
   "images": [
-    { "src": "/images/installations/Dancinghouse_final.png", "caption": "View of sculpture from all angles" },
-    { "src": "/images/installations/Dancinghouse_wip.png", "caption": "House design process" },
-    { "src": "/images/installations/IMG_1194.jpg", "caption": "Final sketch" },
-    { "src": "/images/installations/Untitled_Artwork3.jpg", "caption": "Sketch process" },
-    { "src": "/images/installations/Untitled_Artwork.jpg", "caption": "Initial sketch" }
+    { "src": "/images/installations/image1.jpg", "caption": "Your caption here" },
+    { "src": "/images/installations/image2.jpg", "caption": "Your caption here" }
   ],
-  "thumbnail": "/images/installations/ucfcelebrates.png",
-  "featured": false
+  "thumbnail": "/images/installations/image1.jpg",
+  "featured": true
 }
 ]
