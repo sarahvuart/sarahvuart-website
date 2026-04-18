@@ -71,9 +71,9 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
           /* ── Graphic Design layout: mosaic images, then info below ── */
           <>
             {/* Mosaic image grid */}
-            <div className="columns-1 sm:columns-2 gap-4 mb-12">
-              {images.map((img, i) => (
-                <div key={i} className="break-inside-avoid mb-4">
+           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+  {images.map((img, i) => (
+    <div key={i}>
                   <img
                     src={img.src}
                     alt={img.caption ?? artwork.title}
