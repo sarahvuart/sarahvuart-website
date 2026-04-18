@@ -6,7 +6,7 @@ import Button from '@/components/ui/Button';
 import Link from 'next/link';
 
 export default function HomePage() {
-  const featured = getFeaturedArtworks(8);
+  const featured = getFeaturedArtworks(20).sort(() => Math.random() - 0.5).slice(0, 8);
 
   return (
     <>
