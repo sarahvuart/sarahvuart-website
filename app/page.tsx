@@ -48,15 +48,15 @@ function AboutSection() {
             <SectionHeading
               eyebrow="About"
               title="Hello!"
-              description="I'm Sarah Vu, a multidisciplinary artist and designer. My practice spans oil painting, life drawing, film photography, and graphic design — each discipline feeding the others with new ways of seeing."
+              description="I'm Sarah Vu, a multidisciplinary artist and designer. My practice spans acrylic painting, life drawing, digital photography, graphic design, and installations — each discipline feeding the others with new ways of seeing."
             />
             <p
               className="mt-4 text-base leading-relaxed text-warm-gray max-w-lg"
               style={{ fontFamily: 'var(--font-inter), sans-serif' }}
             >
               I believe deeply in the craft of careful observation — whether
-              standing before a model, mixing paint on a palette, loading a
-              camera with film, or designing a brand from its first mark.
+              standing before a model, mixing paint on a palette, exploring
+              with a camera, or designing a brand from its first mark.
             </p>
             <div className="mt-8">
               <Button href="/about" variant="outline">
