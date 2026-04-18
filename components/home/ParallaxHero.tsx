@@ -35,7 +35,7 @@ export default function ParallaxHero() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Dark overlay so text stays readable */}
-        <div className="absolute inset-0 bg-cream/60" />
+        <div className="absolute inset-0 bg-cream/40" />
       </motion.div>
 
       {/* Midground decorative element */}
