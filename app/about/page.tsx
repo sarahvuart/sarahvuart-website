@@ -20,16 +20,16 @@ const experience = [
 
 const skills = [
   'Acrylic Painting',
-  'Acrylic',
-  'Charcoal & Pastel',
+  'Charcoal',
+  'Pastel',
   'Figure Drawing',
+  'Installation & Sculpture',
   'Digital Photography',
   'Brand Identity',
-  'Editorial Layout',
+  'Illustration',
   'Typography',
   'Adobe Suite',
   'Procreate',
-  'Figma',
 ];
 
 export default function AboutPage() {
@@ -97,8 +97,8 @@ export default function AboutPage() {
                 style={{ fontFamily: 'var(--font-playfair), serif' }}
               >
                 I am Sarah Vu, a multidisciplinary artist based in Orlando, Florida. My
-                work spans acrylic painting, life drawing, street photography, and
-                graphic design.
+                work spans acrylic painting, life drawing, street photography,
+                graphic design, and installation works.
               </p>
               <div
                 className="space-y-5 text-base leading-relaxed text-warm-gray"
