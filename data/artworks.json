@@ -322,6 +322,7 @@
     "year": 2023,
     "medium": "Publication, Illustration",
     "images": [
+      { "src": "/images/graphic-design/Zcover.jpg", "caption": "Back cover design" },
       { "src": "/images/graphic-design/design_mc.jpg", "caption": "Main character turnaround" },
       { "src": "/images/graphic-design/expressions_mc.jpg", "caption": "Main character expressions" },
       { "src": "/images/graphic-design/design_herocasual.jpg", "caption": "Sub-main character turnaround casual outfit" },
