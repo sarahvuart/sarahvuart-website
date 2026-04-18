@@ -24,21 +24,18 @@ export default function ParallaxHero() {
 
   return (
     <div ref={ref} className="relative h-screen min-h-[600px] overflow-hidden">
-      {/* Background gradient layer */}
+      {/* Background image layer */}
       <motion.div
         style={{ y: bgY, scale: bgScale }}
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/hero.jpg"
-          alt="Hero background"
+          src="/images/hero-bg.jpg"
+          alt=""
           className="absolute inset-0 w-full h-full object-cover"
-/>
-        {/* Rich layered gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-cream via-cream-dark to-[#e8ddd0]" />
-        {/* Decorative organic shapes */}
-        <div className="absolute -top-20 -right-20 w-[600px] h-[600px] rounded-full bg-accent/8 blur-3xl" />
-        <div className="absolute bottom-0 -left-40 w-[500px] h-[500px] rounded-full bg-accent/6 blur-3xl" />
+        />
+        {/* Dark overlay so text stays readable */}
+        <div className="absolute inset-0 bg-cream/60" />
       </motion.div>
 
       {/* Midground decorative element */}
