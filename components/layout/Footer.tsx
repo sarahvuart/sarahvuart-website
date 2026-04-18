@@ -6,13 +6,13 @@ const footerLinks = [
   { href: '/works/figure-drawings', label: 'Figure Drawings' },
   { href: '/works/photography', label: 'Photography' },
   { href: '/works/graphic-design', label: 'Graphic Design' },
+  { href: '/works/installations', label: 'Installations' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];
 
 const socialLinks = [
   { href: 'https://instagram.com', label: 'Instagram', icon: 'IG' },
-  { href: 'https://behance.net', label: 'Behance', icon: 'Be' },
   { href: 'https://linkedin.com', label: 'LinkedIn', icon: 'In' },
 ];
 
@@ -37,7 +37,7 @@ export default function Footer() {
             </p>
             <p className="text-sm leading-relaxed text-cream/60">
               A multidisciplinary artist working across painting, drawing,
-              photography, and design.
+              photography, design, and installations.
             </p>
           </div>
 
@@ -87,11 +87,11 @@ export default function Footer() {
               ))}
             </div>
             <a
-              href="mailto:hello@sarahvuart.com"
+              href="mailto:sarah.vu.art@gmail.com"
               className="text-sm text-cream/60 hover:text-accent transition-colors duration-200"
               style={{ fontFamily: 'var(--font-inter), sans-serif' }}
             >
-              hello@sarahvuart.com
+              sarah.vu.art@gmail.com
             </a>
           </div>
         </div>
