@@ -89,9 +89,28 @@ export default async function ArtworkDetailPage({ params }: PageProps) {
                 </div>
               ))}
             </div>
-            <div className="max-w-2xl">
-              <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{categoryMeta?.label}</p>
-              <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight" style={{ fontFamily: 'var(--font-playfair), serif' }}>{artwork.title}</h1>
+           <div className="max-w-2xl">
+              <p className="text-xs tracking-[0.3em] uppercase text-accent mb-4" ...>{categoryMeta?.label}</p>
+              <h1 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight" ...>{artwork.title}</h1>
+
+              {artwork.link && (
+                <div className="mb-6">
+                  
+                    href={artwork.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm tracking-wide underline underline-offset-4 transition-colors duration-200"
+                    style={{
+                      fontFamily: 'var(--font-inter), sans-serif',
+                      color: '#c4a77d',
+                    }}
+                  >
+                    {artwork.link}
+                  </a>
+                </div>
+              )}
+
+              <p className="text-base text-warm-gray leading-relaxed mb-10" ...>{artwork.description}</p>
               <p className="text-base text-warm-gray leading-relaxed mb-10" style={{ fontFamily: 'var(--font-inter), sans-serif' }}>{artwork.description}</p>
               <dl className="space-y-4 border-t border-cream-dark pt-8">
                 <div className="flex gap-8">
