@@ -65,20 +65,14 @@ function AboutSection() {
             </div>
           </div>
 
-          {/* Decorative visual block */}
+          {/* Photo */}
           <div className="relative hidden lg:block">
             <div className="relative aspect-[4/5] bg-cream-dark overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-charcoal/10" />
-              <span
-                className="absolute bottom-8 left-8 right-8 text-7xl font-bold text-charcoal/10 leading-none select-none"
-                style={{ fontFamily: 'var(--font-playfair), serif' }}
-              >
-                Artist.
-                <br />
-                Designer.
-                <br />
-                Observer.
-              </span>
+              <img
+                src="/images/DSC09394-2.jpg"
+                alt="Sarah Vu"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
             </div>
             {/* Offset accent block */}
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-accent" />
