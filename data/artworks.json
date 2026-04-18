@@ -279,6 +279,30 @@
     "thumbnail": "/images/photography/IMG_1593.JPG",
     "featured": false
   },
+  {
+    "id": "ph-007",
+    "slug": "exterior-staircase",
+    "title": "Exterior Staircase",
+    "category": "photography",
+    "description": "This photograph was captured during a walk along the beaches of Da Nang, Vietnam. The composition is of particular interest to Sarah due to its strong geometric qualities, defined by angular lines and a striking division at the center of the frame. This visual split creates a contrast between two distinct environments: one side opens to an expanse of blue sky, while the other is occupied by industrial, man-made structures. The image explores the tension and balance between natural and constructed spaces, inviting viewers to consider their coexistence within a single landscape.",
+    "year": 2024,
+    "medium": "Digital, Sony A6000",
+    "images": ["/images/photography/IMG_1602.JPG"],
+    "thumbnail": "/images/photography/IMG_1602.JPG",
+    "featured": true
+  },
+   {
+    "id": "ph-008",
+    "slug": "dock-journey",
+    "title": "Dock Journey",
+    "category": "photography",
+    "description": "This photograph was captured during a boat journey from southern Vietnam to Ho Chi Minh City. Sarah was drawn to the tranquil interplay between the stillness of the dock at the water’s edge and the subtle movement of the surrounding water. The composition emphasizes a balance between structure and fluidity: the clean, linear geometry of the dock contrasts with the organic, shifting surface of the water. Vivid tones of blue, punctuated by hints of red, serve as focal elements within the frame, reflecting her intention to highlight both color and atmosphere. Through this image, Sarah explores the quiet tension between stability and motion within a serene landscape.",
+    "year": 2024,
+    "medium": "Digital, Sony A6000",
+    "images": ["/images/photography/IMG_1633.JPG"],
+    "thumbnail": "/images/photography/IMG_1633.JPG",
+    "featured": true
+  },
  {
   "id": "gd-001",
   "slug": "ml-pro-nails-brand-identity",
