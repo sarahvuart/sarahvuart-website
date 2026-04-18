@@ -30,7 +30,7 @@ export default function ParallaxHero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/hero-bg.jpg"
+          src="/images/homepage-bg.jpg"
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
         />
